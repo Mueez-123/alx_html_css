@@ -3,8 +3,7 @@
 <head>
 <title> <h1> My first html webpage </h1> </title>
 <meta charset="UTF-8">
-<meta name="description" content="This field contains information about your page. It is usually around two sentences long.">
-<meta name="author" content="Conor Sheils">
+<meta name="description" content="This is my first website. It includes lots of information about my life.">
 </head>
 <body>
 
