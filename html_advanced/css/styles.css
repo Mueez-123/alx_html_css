@@ -7,36 +7,100 @@ body
 
 header
 {
-    border: 2px solid black;
-    height: 100px;
+    border: 3px solid black;
+    height: 50px;
     padding: 5px;
 }
 
 header div
 {
-    border: 1px solid red;
-    /*height: inherit;*/
+    border: 2px solid black;
     display: flex;
     padding: 5px;
     justify-content: space-between;
 }
 
-header div div
+.company-logo
 {
     border: 1px solid red;
     width: 250px;
+    padding: 5px;
     border-radius: 5px;
 }
 
-header div div a
+.company-logo a
 {
-    border: 1px green;
+    border: 1px solid green;
     width: inherit;
     display: flex;
     justify-content: center;
 }
 
-header div div a span
+.company-logo span
 {
     text-align: center;
+}
+
+#nav-links
+{
+    width: 400px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main
+{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#first-section div
+{
+    border: 1px solid black;
+    width: 20%;
+    height: 150px;
+    justify-items: center;
+}
+
+#first-section div h1
+{
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0;
+}
+
+#first-section div p
+{
+    border: 1px solid purple;
+    text-align: center;
+    margin: 0;
+}
+
+#first-section div button
+{
+    border: 1px solid orange;
+    justify-items: center;
+    margin: 0;
 }
