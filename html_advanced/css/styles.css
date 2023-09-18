@@ -61,7 +61,7 @@ header div
 
 main
 {
-    border: 2px solid black;
+    border: 3px solid black;
     height: inherit;
     margin-top: 10px;
     padding: 5px;
@@ -69,38 +69,119 @@ main
 
 main section
 {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    align-content: center;
 }
 
-#first-section div
+#banner div
 {
     border: 1px solid black;
     width: 20%;
     height: 150px;
+    padding: 10px;
     justify-items: center;
 }
 
-#first-section div h1
+#banner div h1
 {
     border: 1px solid blue;
     text-align: center;
-    margin: 0;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
-#first-section div p
+#banner div p
 {
     border: 1px solid purple;
     text-align: center;
-    margin: 0;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
-#first-section div button
+#banner div button
 {
     border: 1px solid orange;
     justify-items: center;
-    margin: 0;
+    font-size: larger;
+    font-weight: bolder;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#banner div div
+{
+    border: 1px solid black;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;  
+}
+
+#banner div div h1
+{
+    border: 1px solid blue;
+    padding: 5px;
+    width: 100px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+}
+
+#banner div div div
+{
+    border: 1px solid black;
+    width: 95%;
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    padding: 10px;
+}
+
+#group
+{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50px;
+    height: 150px;
+}
+
+#group img
+{
+    border: 1px solid green;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+#group p
+{
+    border: 1px solid blue;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+}
+
+#group h2
+{
+    border: 1px solid purple;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
 }
